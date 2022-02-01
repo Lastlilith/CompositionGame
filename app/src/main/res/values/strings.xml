@@ -3,7 +3,7 @@
     <string name="question_mark">\?</string>
     <string name="welcome_title">Number composition</string>
     <string name="game_rules">
-        The rules of the game: there will be three figures in front of you, two below and one above,
+        <b>The rules of the game:</b> there will be three figures in front of you, two below and one above,
         two of them will be numbers. It is required that the sum of the numbers from the two lower
         figures is equal to the number in the upper figure. To do this, insert the missing number.
         \ n \ nExample: in the upper circle the number 7, in one from the lower ones there is a
@@ -26,4 +26,6 @@
     <string name="required_score">Required amount of correct answers: %s</string>
     <string name="progress_answers">Amount of correct answers %s (minimum %s)</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="splash_screen_title">Composition</string>
+    <string name="powered_by_lastlilith">Powered by Lastlilith</string>
 </resources>

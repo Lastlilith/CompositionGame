@@ -15,12 +15,15 @@ class WelcomeFragment : Fragment() {
     private val binding: FragmentWelcomeBinding
         get() = _binding ?: throw RuntimeException("FragmentWelcomeBinding == null")
 
+    //private val vibrator = requireActivity().getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentWelcomeBinding.inflate(inflater, container, false)
         return binding.root
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -34,6 +37,7 @@ class WelcomeFragment : Fragment() {
     private fun launchChooseLevelFragment() {
         findNavController().navigate(R.id.action_welcomeFragment_to_chooseLevelFragment)
     }
+
 
     override fun onDestroyView() {
         super.onDestroyView()

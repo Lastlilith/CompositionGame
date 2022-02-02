@@ -8,12 +8,13 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.compositiongame.databinding.FragmentChooseLevelBinding
 import com.example.compositiongame.domain.entities.Level
+import com.example.compositiongame.utils.doubleVibrateButton
 
 class ChooseLevelFragment : Fragment() {
 
     private var _binding: FragmentChooseLevelBinding? = null
     private val binding: FragmentChooseLevelBinding
-    get() = _binding ?: throw RuntimeException("FragmentChooseLevelBinding == null")
+        get() = _binding ?: throw RuntimeException("FragmentChooseLevelBinding == null")
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -27,15 +28,19 @@ class ChooseLevelFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         with(binding) {
             buttonLevelTest.setOnClickListener {
+                doubleVibrateButton()
                 launchGameFragment(Level.TEST)
             }
             buttonLevelEasy.setOnClickListener {
+                doubleVibrateButton()
                 launchGameFragment(Level.EASY)
             }
             buttonLevelNormal.setOnClickListener {
+                doubleVibrateButton()
                 launchGameFragment(Level.MEDIUM)
             }
             buttonLevelHard.setOnClickListener {
+                doubleVibrateButton()
                 launchGameFragment(Level.HARD)
             }
         }

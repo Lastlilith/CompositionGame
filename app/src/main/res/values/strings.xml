@@ -3,12 +3,10 @@
     <string name="question_mark">\?</string>
     <string name="welcome_title">Number composition</string>
     <string name="game_rules">
-        <b>The rules of the game:</b> there will be three figures in front of you, two below and one above,
-        two of them will be numbers. It is required that the sum of the numbers from the two lower
-        figures is equal to the number in the upper figure. To do this, insert the missing number.
-        \ n \ nExample: in the upper circle the number 7, in one from the lower ones there is a
-        question mark, and in the other is number 4. It means, in place of the question mark should
-        be the number 3 because 3 + 4 = 7
+        <b>The rules of the game:</b> There will be three figures in front of you, two below and one above. Two of them will be numbers. It is required that the sum of the numbers from two lower figures is equal to the number in the upper figure. To do this, insert the missing number.
+
+        \n\n\t<b>Example:</b> In the upper circle the number is 7. In one from the lower ones there is a question mark, and in another one is number 4. It means, in place of the question mark should be number 3, because
+        <b>3 + 4 = 7</b>
     </string>
     <string name="button_understand">Understood</string>
     <string name="welcome_logo">Welcome logo</string>
@@ -22,7 +20,7 @@
     <string name="score_percentage">Percentage of correct answers: %s</string>
     <string name="retry">Try again</string>
     <string name="right_answers">Amount of correct answers %s from %s required</string>
-    <string name="required_percentage">Required percentage of correct answers: %s</string>
+    <string name="required_percentage">Required minimum percentage: %s</string>
     <string name="required_score">Required amount of correct answers: %s</string>
     <string name="progress_answers">Amount of correct answers %s (minimum %s)</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>

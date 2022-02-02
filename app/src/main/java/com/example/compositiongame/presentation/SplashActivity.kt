@@ -1,5 +1,6 @@
 package com.example.compositiongame.presentation
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
@@ -14,6 +15,7 @@ import com.example.compositiongame.R
 import com.example.compositiongame.databinding.ActivitySplashBinding
 
 
+@SuppressLint("CustomSplashScreen")
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -50,7 +52,6 @@ class SplashActivity : AppCompatActivity() {
             override fun onAnimationRepeat(animation: Animation?) {
 
             }
-
         })
     }
 }

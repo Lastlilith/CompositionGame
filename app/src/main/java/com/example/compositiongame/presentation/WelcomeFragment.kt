@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.compositiongame.R
 import com.example.compositiongame.databinding.FragmentWelcomeBinding
+import com.example.compositiongame.utils.doubleVibrateButton
 
 class WelcomeFragment : Fragment() {
 
@@ -15,7 +16,6 @@ class WelcomeFragment : Fragment() {
     private val binding: FragmentWelcomeBinding
         get() = _binding ?: throw RuntimeException("FragmentWelcomeBinding == null")
 
-    //private val vibrator = requireActivity().getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -29,6 +29,7 @@ class WelcomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.buttonUnderstand.setOnClickListener {
+            doubleVibrateButton()
             launchChooseLevelFragment()
         }
 

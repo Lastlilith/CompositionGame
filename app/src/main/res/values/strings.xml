@@ -17,7 +17,7 @@
     <string name="test_level">Test</string>
     <string name="game_over">Game Over</string>
     <string name="score_answers">Your score: %s</string>
-    <string name="score_percentage">Percentage of correct answers: %s</string>
+    <string name="score_percentage">Your percentage of correct answers: %s</string>
     <string name="retry">Try again</string>
     <string name="right_answers">Amount of correct answers %s from %s required</string>
     <string name="required_percentage">Required minimum percentage: %s</string>

@@ -16,6 +16,50 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <TextView
+            android:id="@+id/tv_sum"
+            style="@style/QuestionTextStyle"
+            android:layout_width="144dp"
+            android:layout_height="144dp"
+            android:background="@drawable/circle_background"
+            app:layout_constraintBottom_toTopOf="@id/tv_left_number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            android:text="@string/splash_ten"
+            />
+
+        <TextView
+            android:id="@+id/tv_left_number"
+            style="@style/QuestionTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            app:layout_constraintBottom_toTopOf="@id/tv_sum"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@id/tv_question"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_sum"
+            android:text="@string/splash_seven"
+            />
+
+        <TextView
+            android:id="@+id/tv_question"
+            style="@style/QuestionTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_light"
+            android:text="@string/question_mark"
+            app:layout_constraintBottom_toBottomOf="@id/tv_left_number"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tv_left_number"
+            app:layout_constraintTop_toTopOf="@id/tv_left_number"
+            />
+
+        <TextView
             android:id="@+id/tv_app_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -24,10 +68,11 @@
             android:textSize="50sp"
             android:textStyle="bold"
             android:fontFamily="cursive"
+            android:layout_marginBottom="40dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintBottom_toTopOf="@id/tv_sum"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

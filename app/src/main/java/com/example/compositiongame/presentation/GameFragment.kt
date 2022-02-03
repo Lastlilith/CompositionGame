@@ -1,6 +1,7 @@
 package com.example.compositiongame.presentation
 
 import android.content.res.ColorStateList
+import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,6 +12,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
+import com.example.compositiongame.R
 import com.example.compositiongame.databinding.FragmentGameBinding
 import com.example.compositiongame.domain.entities.GameResult
 import com.example.compositiongame.utils.vibrateButton
@@ -61,6 +63,7 @@ class GameFragment : Fragment() {
         for (tvOption in tvOptions) {
             tvOption.setOnClickListener {
                 vibrateButton()
+                makeSound()
                 viewModel.chooseAnswer(tvOption.text.toString().toInt())
             }
         }
@@ -116,5 +119,10 @@ class GameFragment : Fragment() {
         findNavController().navigate(
             GameFragmentDirections.actionGameFragmentToGameFinishedFragment(gameResult)
         )
+    }
+
+    private fun makeSound() {
+        val mediaPlayer = MediaPlayer.create(requireContext(), R.raw.bubble)
+        mediaPlayer.start()
     }
 }

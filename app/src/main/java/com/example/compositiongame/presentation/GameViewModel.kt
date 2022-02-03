@@ -135,6 +135,7 @@ class GameViewModel(
         val seconds = millisUntilFinished / MILLIS_IN_SECONDS
         val minutes = seconds / SECONDS_IN_MINUTES
         val leftSeconds = seconds - (minutes * SECONDS_IN_MINUTES)
+
         return String.format("%02d:%02d", minutes, leftSeconds)
     }
 

@@ -2,18 +2,18 @@
 <resources>
 
     <style name="OptionTextStyle">
-        <item name="android:padding">16dp</item>
+        <item name="android:padding">@dimen/_16sdp</item>
         <item name="android:textSize">36sp</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/white</item>
     </style>
 
     <style name="QuestionTextStyle">
-        <item name="android:padding">16dp</item>
+        <item name="android:padding">@dimen/_16sdp</item>
         <item name="android:textSize">48sp</item>
         <item name="android:gravity">center</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_margin">@dimen/_8sdp</item>
         <item name="android:textColor">@color/white</item>
     </style>
 </resources>

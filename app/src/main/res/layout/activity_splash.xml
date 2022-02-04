@@ -68,7 +68,7 @@
             android:textSize="50sp"
             android:textStyle="bold"
             android:fontFamily="cursive"
-            android:layout_marginBottom="40dp"
+            android:layout_marginBottom="@dimen/_40sdp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -87,7 +87,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:textSize="20sp"
-        android:layout_marginBottom="48dp"/>
+        android:layout_marginBottom="@dimen/_48sdp"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

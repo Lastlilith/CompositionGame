@@ -19,7 +19,7 @@ fun Fragment.doubleVibrateButton() {
     }
 }
 
-fun Fragment.vibrateButton() {
+/*fun Fragment.vibrateButton() {
     val vibrator = context?.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
     if (Build.VERSION.SDK_INT >= 26) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
@@ -29,3 +29,4 @@ fun Fragment.vibrateButton() {
         vibrator.vibrate(200)
     }
 }
+*/

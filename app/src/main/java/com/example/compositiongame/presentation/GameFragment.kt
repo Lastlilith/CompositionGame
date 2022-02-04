@@ -15,7 +15,7 @@ import androidx.navigation.fragment.navArgs
 import com.example.compositiongame.R
 import com.example.compositiongame.databinding.FragmentGameBinding
 import com.example.compositiongame.domain.entities.GameResult
-import com.example.compositiongame.utils.vibrateButton
+import com.example.compositiongame.utils.doubleVibrateButton
 
 
 class GameFragment : Fragment() {
@@ -62,7 +62,7 @@ class GameFragment : Fragment() {
     private fun setClickListenersToOptions() {
         for (tvOption in tvOptions) {
             tvOption.setOnClickListener {
-                vibrateButton()
+                doubleVibrateButton()
                 makeSound()
                 viewModel.chooseAnswer(tvOption.text.toString().toInt())
             }

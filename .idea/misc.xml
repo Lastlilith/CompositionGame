@@ -7,12 +7,13 @@
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/CompositionGame/app/src/main/res/drawable/ic_brain.xml" value="0.2703125" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/CompositionGame/app/src/main/res/drawable/ic_sad.xml" value="0.2703125" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/CompositionGame/app/src/main/res/drawable/ic_smile.xml" value="0.2703125" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/CompositionGame/app/src/main/res/drawable/textview_border.xml" value="0.1705" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/CompositionGame/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/CompositionGame/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/CompositionGame/app/src/main/res/layout/fragment_choose_level.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/CompositionGame/app/src/main/res/layout/fragment_game.xml" value="0.264" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/CompositionGame/app/src/main/res/layout/fragment_game_finished.xml" value="0.264" />
-        <entry key="..\:/Users/lenovo/AndroidStudioProjects/CompositionGame/app/src/main/res/layout/fragment_welcome.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/CompositionGame/app/src/main/res/layout/fragment_welcome.xml" value="0.264" />
       </map>
     </option>
   </component>

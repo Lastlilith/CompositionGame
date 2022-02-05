@@ -2,11 +2,8 @@
     <string name="app_name">CompositionGame</string>
     <string name="question_mark">\?</string>
     <string name="welcome_title">Number composition</string>
-    <string name="game_rules">
-        <b>The rules of the game:</b> There will be three figures in front of you, two below and one above. Two of them will be numbers. It is required that the sum of the numbers from two lower figures is equal to the number in the upper figure. To do this, insert the missing number.
-
-        \n\n\t<b>Example:</b> In the upper circle the number is 7. In one from the lower ones there is a question mark, and in another one is number 4. It means, in place of the question mark should be number 3, because
-        <b>3 + 4 = 7</b>
+    <string name="game_rules"><b>1.</b>There will be three numbers. \n\t\t\tOne above and two below. \n\t\t\tThe third number is hidden.
+        \n\n<b>2.</b>Find it by deducting second \n\t\t\tnumber from the first!
     </string>
     <string name="button_understand">Understood</string>
     <string name="welcome_logo">Welcome logo</string>
@@ -17,15 +14,16 @@
     <string name="test_level">Test</string>
     <string name="game_over">Game Over</string>
     <string name="score_answers">Your score: %s</string>
-    <string name="score_percentage">Your percentage of correct answers: %s</string>
+    <string name="score_percentage">Your percentage: %s</string>
     <string name="retry">Try again</string>
     <string name="right_answers">Amount of correct answers %s from %s required</string>
-    <string name="required_percentage">Required minimum percentage: %s</string>
-    <string name="required_score">Required amount of correct answers: %s</string>
+    <string name="required_percentage">Required percentage: %s</string>
+    <string name="required_score">Required score: %s</string>
     <string name="progress_answers">Amount of correct answers %s (minimum %s)</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="splash_screen_title">Composition</string>
     <string name="powered_by_lastlilith">Powered by Lastlilith</string>
     <string name="splash_seven">7</string>
     <string name="splash_ten">10</string>
+    <string name="find_missing_number">Try to find missing number!</string>
 </resources>

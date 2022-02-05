@@ -26,8 +26,7 @@
         android:id="@+id/tv_required_answers"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_16sdp"
-        android:layout_marginBottom="24dp"
+        android:layout_margin="@dimen/_24sdp"
         android:background="@drawable/textview_border"
         android:backgroundTint="@android:color/holo_red_light"
         android:gravity="center"
@@ -43,11 +42,11 @@
 
     <TextView
         android:id="@+id/tv_score_answers"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_24sdp"
         android:background="@drawable/textview_border"
         android:backgroundTint="@android:color/holo_green_light"
-        android:layout_marginBottom="24dp"
         android:gravity="center"
         android:text="@string/score_answers"
         android:textColor="@color/white"
@@ -59,9 +58,9 @@
 
     <TextView
         android:id="@+id/tv_required_percentage"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
+        android:layout_margin="@dimen/_24sdp"
         android:background="@drawable/textview_border"
         android:backgroundTint="@android:color/holo_red_light"
         android:gravity="center"
@@ -77,10 +76,9 @@
 
     <TextView
         android:id="@+id/tv_score_percentage"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:layout_marginTop="24dp"
+        android:layout_margin="@dimen/_24sdp"
         android:background="@drawable/textview_border"
         android:backgroundTint="@android:color/holo_green_light"
         android:gravity="center"

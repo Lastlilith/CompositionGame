@@ -3,7 +3,6 @@ package com.example.compositiongame.presentation
 import android.content.res.ColorStateList
 import android.media.MediaPlayer
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -16,6 +15,7 @@ import androidx.navigation.fragment.navArgs
 import com.example.compositiongame.R
 import com.example.compositiongame.databinding.FragmentGameBinding
 import com.example.compositiongame.domain.entities.GameResult
+import com.example.compositiongame.utils.doubleVibrateButton
 
 
 class GameFragment : Fragment() {
@@ -62,12 +62,8 @@ class GameFragment : Fragment() {
     private fun setClickListenersToOptions() {
         for (tvOption in tvOptions) {
             tvOption.setOnClickListener {
-                try {
-                    makeSound()
-                } catch (e: Exception) {
-                    Log.d("Error", "setClickListenersToOptions: ${e.message}")
-                }
-
+                doubleVibrateButton()
+                makeSound()
                 viewModel.chooseAnswer(tvOption.text.toString().toInt())
             }
         }

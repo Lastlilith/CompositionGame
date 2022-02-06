@@ -9,5 +9,5 @@
     android:name="androidx.navigation.fragment.NavHostFragment"
     app:navGraph="@navigation/main_navigation"
     app:defaultNavHost="true"
-    tools:context=".presentation.MainActivity"
+    tools:context=".presentation.activities.MainActivity"
     />

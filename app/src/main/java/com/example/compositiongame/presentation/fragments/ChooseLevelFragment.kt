@@ -1,4 +1,4 @@
-package com.example.compositiongame.presentation
+package com.example.compositiongame.presentation.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -48,7 +48,10 @@ class ChooseLevelFragment : Fragment() {
 
     private fun launchGameFragment(level: Level) {
         findNavController().navigate(
-            ChooseLevelFragmentDirections.actionChooseLevelFragmentToGameFragment(level))
+            ChooseLevelFragmentDirections.actionChooseLevelFragmentToGameFragment(
+                level
+            )
+        )
     }
 
     override fun onDestroyView() {

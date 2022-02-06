@@ -1,4 +1,4 @@
-package com.example.compositiongame.presentation
+package com.example.compositiongame.presentation.viewmodels
 
 import android.app.Application
 import androidx.lifecycle.ViewModel

@@ -1,4 +1,4 @@
-package com.example.compositiongame.presentation
+package com.example.compositiongame.presentation.fragments
 
 import android.content.res.ColorStateList
 import android.media.MediaPlayer
@@ -15,6 +15,8 @@ import androidx.navigation.fragment.navArgs
 import com.example.compositiongame.R
 import com.example.compositiongame.databinding.FragmentGameBinding
 import com.example.compositiongame.domain.entities.GameResult
+import com.example.compositiongame.presentation.viewmodels.GameViewModel
+import com.example.compositiongame.presentation.viewmodels.GameViewModelFactory
 import com.example.compositiongame.utils.doubleVibrateButton
 
 
@@ -117,7 +119,9 @@ class GameFragment : Fragment() {
 
     private fun launchGameFinishedFragment(gameResult: GameResult) {
         findNavController().navigate(
-            GameFragmentDirections.actionGameFragmentToGameFinishedFragment(gameResult)
+            GameFragmentDirections.actionGameFragmentToGameFinishedFragment(
+                gameResult
+            )
         )
     }
 

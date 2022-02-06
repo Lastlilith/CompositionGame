@@ -1,4 +1,4 @@
-package com.example.compositiongame.presentation
+package com.example.compositiongame.presentation.activities
 
 import android.annotation.SuppressLint
 import android.content.Intent

@@ -1,4 +1,4 @@
-package com.example.compositiongame.presentation
+package com.example.compositiongame.presentation.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

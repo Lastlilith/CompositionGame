@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:text="@string/splash_screen_title"
             android:textColor="@color/dark_blue"
-            android:textSize="50sp"
+            android:textSize="@dimen/_40sdp"
             android:textStyle="bold"
             android:fontFamily="cursive"
             android:layout_marginBottom="@dimen/_40sdp"
@@ -81,12 +81,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/powered_by_lastlilith"
+        android:text="@string/powered_by_imnida"
         android:textColor="@color/dark_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:textSize="20sp"
+        android:textSize="@dimen/_16sdp"
         android:layout_marginBottom="@dimen/_48sdp"/>
 
 

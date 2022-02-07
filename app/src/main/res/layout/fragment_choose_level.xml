@@ -15,7 +15,7 @@
             android:layout_margin="@dimen/_16sdp"
             android:text="@string/choose_level_title"
             android:textAlignment="center"
-            android:textSize="24sp"
+            android:textSize="@dimen/_20sdp"
             android:textStyle="bold" />
 
         <Button

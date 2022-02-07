@@ -20,9 +20,10 @@
                 android:layout_height="wrap_content"
                 android:text="@string/splash_screen_title"
                 android:textColor="@color/dark_blue"
-                android:textSize="50sp"
+                android:textSize="@dimen/_40sdp"
                 android:textStyle="bold"
                 android:fontFamily="cursive"
+                android:layout_marginTop="@dimen/_40sdp"
                 android:layout_marginBottom="@dimen/_40sdp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -52,23 +53,26 @@
                 android:gravity="center"
                 android:text="@string/find_missing_number"
                 android:textColor="@android:color/holo_red_light"
-                android:textSize="22sp"
+                android:textSize="@dimen/_20sdp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/iv_logo" />
+                app:layout_constraintTop_toBottomOf="@+id/iv_logo"
+                app:layout_constraintBottom_toTopOf="@id/rules"/>
 
             <TextView
                 android:id="@+id/rules"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
                 android:text="@string/game_rules"
                 android:textAlignment="textStart"
-                android:textSize="20sp"
+                android:textSize="@dimen/_16sdp"
                 app:layout_constraintEnd_toEndOf="@id/find_number"
                 app:layout_constraintStart_toStartOf="@id/find_number"
-                app:layout_constraintTop_toBottomOf="@+id/find_number" />
+                app:layout_constraintTop_toBottomOf="@+id/find_number"
+                app:layout_constraintBottom_toTopOf="@id/button_understand"/>
 
             <Button
                 android:id="@+id/button_understand"

@@ -1,9 +1,8 @@
 <resources>
-    <string name="app_name">CompositionGame</string>
+    <string name="app_name">Numberpick</string>
     <string name="question_mark">\?</string>
-    <string name="welcome_title">Number composition</string>
-    <string name="game_rules"><b>1.</b>There will be three numbers. \n\t\t\tOne above and two below. \n\t\t\tThe third number is hidden.
-        \n\n<b>2.</b>Find it by deducting second \n\t\t\tnumber from the first!
+    <string name="game_rules"><b>1.</b>\tThere will be three numbers. \n\t\t\tOne above and two below. \n\t\t\tThe third number is hidden.
+        \n\n<b>2.</b>\tFind it by deducting second \n\t\t\tnumber from the first!
     </string>
     <string name="button_understand">Understood</string>
     <string name="welcome_logo">Welcome logo</string>
@@ -21,8 +20,8 @@
     <string name="required_score">Required score: %s</string>
     <string name="progress_answers">Amount of correct answers %s (minimum %s)</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="splash_screen_title">Composition</string>
-    <string name="powered_by_lastlilith">Powered by Lastlilith</string>
+    <string name="splash_screen_title">Numberpick</string>
+    <string name="powered_by_imnida">Powered by Imnida</string>
     <string name="splash_seven">7</string>
     <string name="splash_ten">10</string>
     <string name="find_missing_number">Try to find missing number!</string>

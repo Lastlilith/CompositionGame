@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/_8sdp"
         android:textColor="@android:color/holo_red_light"
-        android:textSize="40sp"
+        android:textSize="@dimen/_30sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -29,7 +29,6 @@
         android:background="@drawable/circle_background"
         app:layout_constraintBottom_toTopOf="@id/tv_left_number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed"
@@ -63,6 +62,32 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/tv_left_number"
         app:layout_constraintTop_toTopOf="@id/tv_left_number"
+        />
+
+    <TextView
+        android:id="@+id/tv_answers_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/progress_answers"
+        android:textSize="@dimen/_12sdp"
+        android:layout_margin="@dimen/_16sdp"
+        android:textStyle="bold"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:layout_constraintTop_toBottomOf="@id/tv_left_number"
+        app:layout_constraintBottom_toTopOf="@id/progress_bar"
+        />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:secondaryProgressTint="@android:color/background_dark"
+        app:layout_constraintBottom_toTopOf="@+id/tv_option_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_answers_progress"
         />
 
     <TextView
@@ -137,30 +162,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/tv_option_5"
         tools:text="6"
-        />
-
-    <TextView
-        android:id="@+id/tv_answers_progress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/progress_answers"
-        android:layout_margin="@dimen/_16sdp"
-        app:layout_constraintVertical_chainStyle="spread"
-        app:layout_constraintTop_toBottomOf="@id/tv_left_number"
-        app:layout_constraintBottom_toTopOf="@id/progress_bar"
-        />
-
-    <ProgressBar
-        android:id="@+id/progress_bar"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:max="100"
-        android:secondaryProgressTint="@android:color/background_dark"
-        app:layout_constraintBottom_toTopOf="@+id/tv_option_2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_answers_progress"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Numberpick</string>
+    <string name="question_mark">\?</string>
+    <string name="game_rules"><b>1.</b>\tВы увидите три клетки с числами. \n\t\t\tОдно сверху, два снизу. \n\t\t\tТретье число скрыто.
+        \n\n<b>2.</b>\tНайдите его, отнимая второе \n\t\t\tчисло от первого!
+    </string>
+    <string name="button_understand">Понятно</string>
+    <string name="welcome_logo">Welcome logo</string>
+    <string name="choose_level_title">Выберите уровень сложности</string>
+    <string name="easy_level">Легкий</string>
+    <string name="normal_level">Средний</string>
+    <string name="hard_level">Сложный</string>
+    <string name="test_level">Тест</string>
+    <string name="game_over">Игра окончена</string>
+    <string name="score_answers">Ваш счет: %s</string>
+    <string name="score_percentage">Ваш процент: %s</string>
+    <string name="retry">Попробовать снова</string>
+    <string name="right_answers">Количество правильных ответов %s из %s необходимых</string>
+    <string name="required_percentage">Необходимый процент: %s</string>
+    <string name="required_score">Минимальный счет: %s</string>
+    <string name="progress_answers">Количество правильных ответов %s (минимум %s)</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="splash_screen_title">Numberpick</string>
+    <string name="powered_by_imnida">Powered by Imnida</string>
+    <string name="splash_seven">7</string>
+    <string name="splash_ten">10</string>
+    <string name="find_missing_number">Найдите скрытое число!</string>
+</resources>

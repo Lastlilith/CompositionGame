@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Numberpick</string>
+    <string name="question_mark">\?</string>
+    <string name="game_rules"><b>1.</b>\t위에 하나, 아래에 둘. \n\t\t\t총 세 개의 숫자가 있습니다.\n\t\t\t세 번째 숫자는 숨겨져있습니다.
+        \n\n<b>2.</b>\t첫 번째 숫자에서 두 번째 숫자를 빼서 \n\t\t\t세 번째 숫자를 찾아보세요!
+    </string>
+    <string name="button_understand">이해 했어요!</string>
+    <string name="welcome_logo">Welcome logo</string>
+    <string name="choose_level_title">레벨을 고르세요!</string>
+    <string name="easy_level">쉬움</string>
+    <string name="normal_level">중간</string>
+    <string name="hard_level">어려움</string>
+    <string name="test_level">테스트</string>
+    <string name="game_over">끝났어요!</string>
+    <string name="score_answers">내 점수: %s</string>
+    <string name="score_percentage">내 퍼센테이지: %s</string>
+    <string name="retry">다시 해볼까요?</string>
+    <string name="right_answers">Amount of correct answers %s from %s required</string>
+    <string name="required_percentage">필요한 퍼센테이지: %s</string>
+    <string name="required_score">필요한 점수: %s</string>
+    <string name="progress_answers">맞은 갯수 %s (최소 필요한 갯수 %s)</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="splash_screen_title">Numberpick</string>
+    <string name="powered_by_imnida">Powered by Imnida</string>
+    <string name="splash_seven">7</string>
+    <string name="splash_ten">10</string>
+    <string name="find_missing_number">사라진 숫자를 찾아라!</string>
+</resources>

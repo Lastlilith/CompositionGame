@@ -9,6 +9,8 @@ import androidx.navigation.fragment.findNavController
 import com.example.compositiongame.databinding.FragmentChooseLevelBinding
 import com.example.compositiongame.domain.entities.Level
 import com.example.compositiongame.utils.doubleVibrateButton
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.MobileAds
 
 class ChooseLevelFragment : Fragment() {
 
@@ -44,6 +46,10 @@ class ChooseLevelFragment : Fragment() {
                 launchGameFragment(Level.HARD)
             }
         }
+        //Google ads
+        MobileAds.initialize(requireContext())
+        val adRequest = AdRequest.Builder().build()
+        binding.adView.loadAd(adRequest)
     }
 
     private fun launchGameFragment(level: Level) {

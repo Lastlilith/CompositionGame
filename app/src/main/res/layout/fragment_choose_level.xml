@@ -19,15 +19,6 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button_level_test"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_16sdp"
-            android:layout_marginEnd="@dimen/_16sdp"
-            android:backgroundTint="@color/dark_blue"
-            android:text="@string/test_level" />
-
-        <Button
             android:id="@+id/button_level_easy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -1,6 +1,6 @@
 # Number Composition Game
 
-<p align="center"><img src="assets/phone_game.jpg" /></p>
+![phone_game](https://user-images.githubusercontent.com/57666313/153745478-00ae30a1-a19b-48ef-b5e0-926558b70517.jpg)
 
 **Requirements**
 - Android studio last version
@@ -15,7 +15,7 @@
 
 **Screenshot**
 
-<p align="center"><img src="assets/screenshot_at_once" /></p>
+![screenshot_at_once](https://user-images.githubusercontent.com/57666313/153745468-1f2e6ba8-e640-4866-9beb-639129c4dca3.png)
 
 
 **Dependencies**

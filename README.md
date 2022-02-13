@@ -2,6 +2,8 @@
 
 ![fixed](https://user-images.githubusercontent.com/57666313/153745567-c7b74e01-382f-4141-9eca-a6c6e5e0e0fc.png)
 
+<p align="center"><img src="assets/phone_game.jpg" /></p>
+
 
 **Requirements**
 - Android studio last version

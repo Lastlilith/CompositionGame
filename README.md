@@ -1,8 +1,7 @@
 # Number Composition Game
 
-![fixed](https://user-images.githubusercontent.com/57666313/153745567-c7b74e01-382f-4141-9eca-a6c6e5e0e0fc.png)
-
-<p align="center"><img src="assets/phone_game.jpg" /></p>
+![rules](https://user-images.githubusercontent.com/57666313/153745790-dc7e94c0-c73e-46c6-8c61-0bae295dea32.png)
+![fixed](https://user-images.githubusercontent.com/57666313/153745651-7365c80e-928d-4ce4-a7db-5eca8d361165.png)
 
 
 **Requirements**
@@ -12,11 +11,11 @@
 - Supports API Level +21
 
 **Highlights**
-- Suitable for people of all ages (0-100)
+- Suitable for people of all ages <b>(0-100)</b>
 - Supports three languages. English, Korean and Russian
 - Three difficulty levels
 
-**Screenshot**
+**Screenshots**
 
 ![screenshot_at_once](https://user-images.githubusercontent.com/57666313/153745468-1f2e6ba8-e640-4866-9beb-639129c4dca3.png)
 

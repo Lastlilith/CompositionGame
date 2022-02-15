@@ -22,7 +22,7 @@
     <string name="progress_answers">맞은 갯수 %s (최소 필요한 갯수 %s)</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="splash_screen_title">Numberpick</string>
-    <string name="powered_by_imnida">Powered by Imnida</string>
+    <string name="powered_by_imnida">Powered by Imnida Software</string>
     <string name="splash_seven">7</string>
     <string name="splash_ten">10</string>
     <string name="find_missing_number">사라진 숫자를 찾아라!</string>

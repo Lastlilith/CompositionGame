@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".presentation.fragments.ChooseLevelFragment">
+    tools:context="com.imnidasoftware.numberpick.presentation.fragments.ChooseLevelFragment">
 
     <TextView
         android:id="@+id/tv_title"
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             ads:adSize="BANNER"
-            ads:adUnitId="ca-app-pub-9789460132988083/6625242231"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
             ads:layout_constraintBottom_toBottomOf="parent"
             ads:layout_constraintEnd_toEndOf="parent"
             ads:layout_constraintStart_toStartOf="parent"/>

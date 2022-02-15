@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.compositiongame">
+    package="com.imnidasoftware.numberpick">
 
     <uses-permission android:name="android.permission.VIBRATE" />
 
@@ -10,12 +10,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CompositionGame">
+        android:theme="@style/Theme.Numberpick">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-9789460132988083~5037323234"/>
         <activity
-            android:name=".presentation.activities.SplashActivity"
+            android:name="com.imnidasoftware.numberpick.presentation.activities.SplashActivity"
             android:exported="true"
             android:screenOrientation="nosensor"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".presentation.activities.MainActivity"
+            android:name="com.imnidasoftware.numberpick.presentation.activities.MainActivity"
             android:exported="true"
             android:screenOrientation="nosensor">
         </activity>

@@ -1,87 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:tools="http://schemas.android.com/tools"
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
 
-    <ScrollView
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:orientation="vertical"
+        tools:context=".presentation.fragments.WelcomeFragment">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:fontFamily="cursive"
+            android:id="@+id/tv_app_name"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            tools:context=".presentation.fragments.WelcomeFragment">
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_width="wrap_content"
+            android:text="@string/splash_screen_title"
+            android:textColor="@color/dark_blue"
+            android:textSize="@dimen/_40sdp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/iv_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
-                android:id="@+id/tv_app_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/splash_screen_title"
-                android:textColor="@color/dark_blue"
-                android:textSize="@dimen/_40sdp"
-                android:textStyle="bold"
-                android:fontFamily="cursive"
-                android:layout_marginTop="@dimen/_40sdp"
-                android:layout_marginBottom="@dimen/_40sdp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toTopOf="@id/iv_logo"/>
+        <ImageView
+            android:contentDescription="@string/welcome_logo"
+            android:id="@+id/iv_logo"
+            android:layout_gravity="center"
+            android:layout_height="150dp"
+            android:layout_margin="@dimen/_32sdp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_brain"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_app_name" />
 
-            <ImageView
-                android:id="@+id/iv_logo"
-                android:layout_width="wrap_content"
-                android:layout_height="150dp"
-                android:layout_gravity="center"
-                android:layout_margin="@dimen/_32sdp"
-                android:contentDescription="@string/welcome_logo"
-                android:src="@drawable/ic_brain"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tv_app_name" />
+        <TextView
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:id="@+id/find_number"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:layout_width="wrap_content"
+            android:text="@string/find_missing_number"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/rules"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_logo" />
 
-            <TextView
-                android:id="@+id/find_number"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_16sdp"
-                android:layout_marginTop="@dimen/_24sdp"
-                android:layout_marginEnd="@dimen/_16sdp"
-                android:fontFamily="casual"
-                android:gravity="center"
-                android:text="@string/find_missing_number"
-                android:textColor="@android:color/holo_red_light"
-                android:textSize="@dimen/_20sdp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/iv_logo"
-                app:layout_constraintBottom_toTopOf="@id/rules"/>
+        <TextView
+            android:id="@+id/rules"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_width="wrap_content"
+            android:text="@string/game_rules"
+            android:textAlignment="textStart"
+            android:textSize="@dimen/_16sdp"
+            app:layout_constraintBottom_toTopOf="@id/button_understand"
+            app:layout_constraintEnd_toEndOf="@id/find_number"
+            app:layout_constraintStart_toStartOf="@id/find_number"
+            app:layout_constraintTop_toBottomOf="@+id/find_number" />
 
-            <TextView
-                android:id="@+id/rules"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_16sdp"
-                android:layout_marginBottom="@dimen/_20sdp"
-                android:text="@string/game_rules"
-                android:textAlignment="textStart"
-                android:textSize="@dimen/_16sdp"
-                app:layout_constraintEnd_toEndOf="@id/find_number"
-                app:layout_constraintStart_toStartOf="@id/find_number"
-                app:layout_constraintTop_toBottomOf="@+id/find_number"
-                app:layout_constraintBottom_toTopOf="@id/button_understand"/>
-
-            <Button
-                android:id="@+id/button_understand"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:backgroundTint="@color/dark_blue"
-                android:text="@string/button_understand"
-                app:layout_constraintBottom_toBottomOf="parent" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </ScrollView>
-</layout>
+        <Button
+            android:backgroundTint="@color/dark_blue"
+            android:id="@+id/button_understand"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/button_understand"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

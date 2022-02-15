@@ -18,15 +18,3 @@ fun Fragment.doubleVibrateButton() {
         vibrator.vibrate(200)
     }
 }
-
-/*fun Fragment.vibrateButton() {
-    val vibrator = context?.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
-    if (Build.VERSION.SDK_INT >= 26) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-            vibrator.vibrate(VibrationEffect.createOneShot(200, VibrationEffect.EFFECT_TICK))
-        }
-    } else {
-        vibrator.vibrate(200)
-    }
-}
-*/
